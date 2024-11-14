@@ -1,0 +1,29 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box  ;
+}
+
+div {
+    display: flex;
+    justify-content: center;
+}
+
+button {
+    margin: 300px 0 0 0; 
+    padding: 2rem;
+    font-size: 3rem;
+    border-radius: 10px;
+    border: 5px solid lightsalmon;
+    background-color: darkgreen;
+    color: lightsalmon;
+    transition: .2s;
+}
+
+button:hover {
+    background-color: lightsalmon;
+    color: darkgreen;
+    border-color: darkgreen;
+    cursor: pointer;
+}
+
